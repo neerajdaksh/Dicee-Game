@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Open+Sans:ital@1&family=Poppins:wght@200;500&display=swap");
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Open+Sans:ital@1&family=Poppins:wght@200;500&display=swap');
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   justify-items: center;
+
 }
 
 body {
@@ -14,37 +16,38 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
-  font-family: "Libre Baskerville", serif;
-  margin-top: 2rem;
+  font-size: 4rem;
+  text-shadow: 5px 0 #232931;
+  font-family: 'Libre Baskerville', serif;
+  margin: 30px;
+  color: aqua;
 }
-.player-name {
-  font-size: 1.5rem;
-  font-family: "Libre Baskerville", serif;
-}
+ 
+
 .container {
-  width: 100%;
-
-  display: grid;
-  place-items: center;
-}
-.player-box {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  width: 70%;
+  margin: auto;
   text-align: center;
-  margin: 3rem;
-}
+ 
+} 
 
-.box-container {
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
+p{
+    font-size: 2rem;
+    color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
 }
-
-.box {
-  width: 170px;
-  height: 180px;
-  margin: 2rem;
+ 
+.dicee{
+    text-align: center;
+    display: inline-block;
+}
+ 
+img{
+    width: 80%;
+}
+footer{
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
 }
